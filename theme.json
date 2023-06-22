@@ -130,9 +130,9 @@
           "fontSize": "var(--wp--custom--typography--font-size--heading-3)"
         }
       },
-      "link":{
+      "link": {
         "color": {
-          "text":
+          "text": "currentColor"
         }
       }
     },
