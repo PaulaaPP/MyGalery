@@ -20,12 +20,27 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;1,400;1,700&display=swap");
 
-/* Styles */
+/****** Styles  ********/
 
 :where(.wp-block-group.has-background) {
   padding: 16px 16px;
 }
 
+/* list of post */
 .category_list {
   list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* button Home */
+.has-green-button-background-color {
+  background-image: linear-gradient(to right, #97928b, #616d70, #334b5f);
+}
+
+.list_contact {
+  list-style: none;
+  line-height: 58px;
 }

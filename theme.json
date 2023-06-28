@@ -14,14 +14,19 @@
           "name": "Green"
         },
         {
-          "slug": "paperless-gray",
-          "color": "#8B8B8B",
-          "name": "Gray"
+          "slug": "light-button",
+          "color": "#97928B",
+          "name": "greenbutton"
         },
         {
-          "slug": "blue-galery",
-          "color": "#2F79A8",
-          "name": "Blue"
+          "slug": "blue-button",
+          "color": "#3B5362",
+          "name": "Blue-sky"
+        },
+        {
+          "slug": "grey-button",
+          "color": "#616D70",
+          "name": "Blue-sky"
         }
       ]
     },
