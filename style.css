@@ -40,7 +40,38 @@ Use it to make something cool, have fun, and share what you've learned with othe
   background-image: linear-gradient(to right, #97928b, #616d70, #334b5f);
 }
 
-.list_contact {
-  list-style: none;
-  line-height: 58px;
+/* adres paragraph */
+.adres_items {
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 25px;
+  line-height: 10px;
+}
+
+/* .space_single_galery {
+  margin: 20px;
+} */
+
+/****** Media Queries ********/
+
+/* SMALL */
+
+/* padding for h1 title of post */
+@media (max-width: 1024px) {
+  .wp-block-post-title {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 929px) {
+  /* latest-post Home */
+  .wp-block-latest-posts.is-grid {
+    gap: 1px;
+    display: grid;
+    justify-items: stretch;
+    justify-content: space-around;
+  }
+  .wp-block-latest-posts.columns-3 li {
+    margin-bottom: 56px;
+  }
 }
